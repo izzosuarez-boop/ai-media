@@ -1,0 +1,18 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Generated media under review (published files live on the Shopify CDN)
+scripts/images/out/
+scripts/media/out/
+scripts/shopify/out/
+
+# Reference photos (real people): kept local
+refs/
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
